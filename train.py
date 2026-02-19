@@ -137,7 +137,7 @@ class PolyphonicRNN(nn.Module):
         return self.fc(y), h
 
 
-midi_files = glob.glob("./testdata2/*.mid", recursive=True)
+midi_files = glob.glob("./testdata1/*.mid", recursive=True)
         
 stoi, itos = build_vocab()
 dataset = MusicDataset(midi_files, stoi)

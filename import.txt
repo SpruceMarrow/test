@@ -1,0 +1,7 @@
+pip install streamlit
+pip install pytorch
+pip install muspy
+pip install midi2audio
+pip install pretty_midi
+pip install soundfile
+pip install google-genai
